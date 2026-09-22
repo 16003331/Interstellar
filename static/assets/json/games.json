@@ -891,6 +891,7 @@
     "name": "Diep.io",
     "link": "https://diep.io/",
     "image": "/assets/media/icons/diep.webp",
+    "local2": true,
     "categories": ["all"]
   },
   {

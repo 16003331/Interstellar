@@ -41,6 +41,9 @@ function handleAppClick(app) {
   }
 
   const proxy = app.proxy;
+  if (app.transport === "libcurl") {
+    store.set("transport", "libcurl");
+  }
 
   // isInTabMode is declared in main.js
   if (app.local) {
